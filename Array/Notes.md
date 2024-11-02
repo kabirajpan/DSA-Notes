@@ -30,7 +30,7 @@ for(int i = 0; i < n-1; i++){
 marks[0] = 15;
 marks[1] = 12;
 marks[2] = 33;
-marks[3] = 2
+marks[3] = 2;
 marks[4] = 4;
 ```
 
