@@ -2,16 +2,19 @@
 
 
 ## Method 01 
+```cpp
 int marks [5] = {2,4,5,6,7};
-
+```
 
 
 ## Method 02 
+```cpp
 int marks [] = {1,2,3,5,5,6};
-
+```
 
 
 ##  Method 03 
+```cpp
 int n;
 cout <<"Enter size of array: "<<endl;
 cin >> n ;
@@ -20,17 +23,19 @@ cout << "Enter values of an array: "<< endl;
 for(int i = 0; i < n-1; i++){
     cin >> a [i];
 }
-
+```
 
 ## Method 04 
+```cpp
 marks[0] = 15;
 marks[1] = 12;
 marks[2] = 33;
 marks[3] = 2
 marks[4] = 4;
+```
+
 
 # Operatin in Array #
-
 01. Traversal
 02. Insertion
 03. Deletion
@@ -40,6 +45,7 @@ marks[4] = 4;
 
 
 # Traversal
+```cpp
 int main() {
     int a [4] = {3,4,6,2};
 
@@ -47,10 +53,11 @@ int main() {
         cout << a[i] << endl;
     }
 }
-
+```
 
 
 # Insertion:- at the begining
+```cpp
 int main() {
     int n;
     cout <<"Enter the size of array: " << endl;
@@ -81,10 +88,11 @@ int main() {
         cout<< a[i]<< endl;
     }
 }
+```
 
 
 # Insertion:- at specific
-
+```cpp
 int main(){
     int n;
     cout<<"Enter size of an Array: "<< endl;
@@ -115,12 +123,12 @@ int main(){
         cout<<array[i] <<" ";
     }
 }
-
+```
 
 
 
 # Insertion:- At ending
-
+```cpp
 int main(){
 
     int n, x, i;
@@ -146,7 +154,7 @@ int main(){
         cout<<array[i]<<" ";
     }
 }
-
+```
 
 
 
