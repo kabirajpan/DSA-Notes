@@ -45,10 +45,28 @@ class List {
         } else {
             tail->next = newNode;
             tail = newNode;
-        }
-
+        };
     };
 
+    void pop_front(int val){
+        if(head == NULL) {
+            cout<< "LL is empty\n" ;
+            return;
+        }
+
+        Node* temp = head;
+        head = head->next;
+        temp->next = NULL;
+
+        delete temp;
+    }
+
+    void pop_back(int val){
+        if(head == NULL){
+            cout << "LL is empty\n";
+            
+        }
+    }
     void printLL(){
         Node* temp = head;
         while(temp != NULL){
@@ -62,6 +80,7 @@ class List {
 
 
 int main(){
+    cout << "Hello World!" << endl;
 
     List ll;
 
@@ -71,6 +90,5 @@ int main(){
     ll.push_back(4);
 
     ll.printLL();
-    cout << "Hello World!" << endl;
     return 0;
 }
